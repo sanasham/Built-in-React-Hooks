@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./Header";
 import Memo from "./hooks/Hook-useMemo/Memo";
 import CounterOne from './hooks/CustomHooks/CounterOne';
+import Todo from "./components/Todo";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
     {/* <Header label="Welcome !"/> */}
       {/* <Callback /> */}
     {/* <Memo /> */}
-   <CounterOne />
+   {/* <CounterOne /> */}
+   <Todo />
     </>
   );
 }
